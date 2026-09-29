@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>expense_tracker</name>
+    </assembly>
+    <members>
+        <member name="T:expense_tracker.ViewModels.MainViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:expense_tracker.ViewModels.MainViewModel.Title">
+            <inheritdoc cref="F:expense_tracker.ViewModels.MainViewModel._title"/>
+        </member>
+        <member name="P:expense_tracker.ViewModels.MainViewModel.Amount">
+            <inheritdoc cref="F:expense_tracker.ViewModels.MainViewModel._amount"/>
+        </member>
+        <member name="P:expense_tracker.ViewModels.MainViewModel.SelectedCategory">
+            <inheritdoc cref="F:expense_tracker.ViewModels.MainViewModel._selectedCategory"/>
+        </member>
+        <member name="P:expense_tracker.ViewModels.MainViewModel.TotalExpenses">
+            <inheritdoc cref="F:expense_tracker.ViewModels.MainViewModel._totalExpenses"/>
+        </member>
+        <member name="F:expense_tracker.ViewModels.MainViewModel.loadExpensesCommand">
+            <summary>The backing field for <see cref="P:expense_tracker.ViewModels.MainViewModel.LoadExpensesCommand"/>.</summary>
+        </member>
+        <member name="P:expense_tracker.ViewModels.MainViewModel.LoadExpensesCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:expense_tracker.ViewModels.MainViewModel.LoadExpensesAsync"/>.</summary>
+        </member>
+        <member name="F:expense_tracker.ViewModels.MainViewModel.addExpenseCommand">
+            <summary>The backing field for <see cref="P:expense_tracker.ViewModels.MainViewModel.AddExpenseCommand"/>.</summary>
+        </member>
+        <member name="P:expense_tracker.ViewModels.MainViewModel.AddExpenseCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:expense_tracker.ViewModels.MainViewModel.AddExpenseAsync"/>.</summary>
+        </member>
+        <member name="F:expense_tracker.ViewModels.MainViewModel.deleteExpenseCommand">
+            <summary>The backing field for <see cref="P:expense_tracker.ViewModels.MainViewModel.DeleteExpenseCommand"/>.</summary>
+        </member>
+        <member name="P:expense_tracker.ViewModels.MainViewModel.DeleteExpenseCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:expense_tracker.ViewModels.MainViewModel.DeleteExpenseAsync(expense_tracker.Models.Expense)"/>.</summary>
+        </member>
+        <member name="T:expense_tracker.Resource">
+            <summary>
+            Android Resource Designer class.
+            Exposes the Android Resource designer assembly into the project Namespace.
+            </summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Title">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Title" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Amount">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Amount" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SelectedCategory">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SelectedCategory" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.TotalExpenses">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "TotalExpenses" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Title">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Title" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Amount">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Amount" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SelectedCategory">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SelectedCategory" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.TotalExpenses">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "TotalExpenses" generated properties.</summary>
+        </member>
+    </members>
+</doc>
